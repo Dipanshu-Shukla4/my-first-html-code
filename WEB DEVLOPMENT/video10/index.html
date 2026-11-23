@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Code</title>
+</head>
+<body>
+    <h1>R D M PUBLIC INTER COLLEGE
+             RAMAPUR GONDA</h1>    
+    <nav>
+      <a href="#Courses">Courses</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#register">Register</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <h2>Our Courses</h2>
+    <ul>
+        <li>EXCEL</li>
+        <li>SQL</li>
+        <li>PYTHON</li>
+        <li>FULL STACK DEVELOPMENT</li>
+        <li>AI AUTOMATION</li>
+    </ul>
+    <table border="1">
+        <tr>
+            <th>COURSES</th>
+            <th>DURATION</th>
+            <th>FEE</th>
+        </tr>
+         <tr>
+            <td>EXCEL</td>
+            <td>6 MONTH</td>
+            <td>15 THOUSANT</td>
+         </tr>
+            <tr>
+                <td>SQL</td>
+                <td>6 MONTH</td>
+                <td>20 THOUSANT</td>
+            </tr>
+        <tr>
+                <td>PYTHON</td>
+                <td>1 YEAR</td>
+                <td>30 THOUSANT</td>
+            </tr>
+            </table>
+    <h2>REGISTRATION FORM FOR STUDENT</h2>
+    <form action="post">
+      <div>
+     <label for="fullname">Name:</label>
+     <input type = "text" id="fullname" name = "fullname" placeholder="Enter your Name"
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id = "password" name="password" placeholder="Enter strong password"    
+    </div>
+    <div>
+        <label for = "DOB" >DOB</label>
+        <input type = "date" id = "DOB" name="Birth Date" placeholder="Enter your Birth Date">
+    </div>
+    <div>
+        <label for="gender-male">Male</label>
+        <input type="radio" id = "gender-male" name="gender" value="male">
+        
+        <label for="gender-female">Female</label>
+        <input type="radio" id = "gender-female" name="gender" value="female">
+
+
+        <label for="gender-other">Other</label>
+        <input type="radio" id = "gender-other" name="gender" value="other">        
+    </div>
+    <div>
+       <label for="">Enter Your Skills:</label>
+        <label for="Excel">Excel</label>
+        <input type="checkbox" name="Skills" id="Excel" value="Excel">
+        
+        <label for = "SQL">SQL</label>
+        <input type="checkbox" name="skills" id ="SQL" value="Sql">
+
+        <label for = "Power BI">POWER BI</label>
+        <input type="checkbox" name = "Skills" id = "Power BI" value="Power BI">
+
+        <label for = "none">None</label>
+        <input type="checkbox" name="skills" id = "none" value="none">
+    </div>
+
+
+<div>
+    <label for="courses">Your Preferred Course:</label><br>
+    <select id = "course" name="course">
+        <option value='''disabled selected'''>Choose a Course</option>
+        <option value="excel">Excel</option>
+        <option value="sql">SQL</option>
+        <option value="Python">Python</option>
+        <option value="full stack development">Full Stack Development</option>
+        <option value="ai-automation">AI-Automation</option>
+    </select>
+</div>
+<div>
+    <label for = "address">Enter your Full Address:</label><br>
+    <textarea name="address" id="address" rows="3" cols="30"></textarea></br>
+</div>
+<div>
+    <input type="Submit" id = "submit-btn" name="submit" value="Submit">
+    <input type="reset" id = "reset-btn" name="reset" value="Reset">       
+</div>
+</form>
+</body>
+</html>
